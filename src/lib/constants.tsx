@@ -52,12 +52,11 @@ export const EXPERIENCE: ExperienceItem[] = [
       'Owned a daily <highlight>end-to-end ETL system</highlight> combining web scraping, normalization, AI summarization, and structured storage using cron-based automation. This pipeline directly contributed to a <highlight>3× increase in app downloads</highlight> and a <highlight>60% increase in daily active users</highlight>.',
       'Architected and shipped a <highlight>production-grade GRE AI Tutor</highlight> using <tech>Pydantic-AI</tech>, with schema-validated outputs, tool-based reasoning, persistent user context, and performance tracking.',
       'Built the complete async backend for GRE Quant, Verbal, and Vocabulary modules using <tech>FastAPI</tech>, <tech>async SQLAlchemy</tech>, <tech>asyncpg</tech>, and PostgreSQL, focusing on predictable latency and clean domain separation.',
-      'Designed and deployed <highlight>retrieval-augmented generation pipelines</highlight> using <tech>ChromaDB</tech>, chosen intentionally over heavier vector databases for cost efficiency, operational simplicity, and tighter control.',
       'Engineered subscription and access-control infrastructure using <tech>Razorpay</tech>, including free trials, international payments, secure webhook verification, idempotency handling, and real-time entitlement checks.',
       'Reduced AI infrastructure costs by approximately <highlight>50%</highlight> through batch inference, prompt restructuring, token optimization, and deliberate model selection based on cost–quality tradeoffs.',
       'Built scalable OCR and document-ingestion pipelines using <tech>GOT OCR 2.0</tech> and <tech>Gemini 2.5 Pro</tech> to digitize and structure physical and scanned educational content.',
       'Developed internal automation systems including AI-assisted video generation workflows using <tech>n8n</tech> and custom <tech>MoviePy</tech> pipelines, significantly reducing manual content operations.',
-      'Prototyped early-stage <highlight>realtime voice agents</highlight> for interactive language-learning use cases, exploring latency, streaming responses, and conversational state management.',
+      'Prototyped early-stage <highlight>realtime voice-to-voice agent</highlight> for interactive use cases, exploring latency, streaming responses, and conversational state management.',
     ],
   },
 ]
