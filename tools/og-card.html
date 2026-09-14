@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    width: 1200px; height: 630px;
+    background: #1e1e2e;
+    font-family: 'Inter', sans-serif;
+    color: #cdd6f4;
+    overflow: hidden;
+    position: relative;
+  }
+  .grid {
+    position: absolute; inset: 0;
+    background-image: radial-gradient(#313244 1px, transparent 1px);
+    background-size: 30px 30px;
+    opacity: .5;
+    -webkit-mask-image: radial-gradient(ellipse 90% 70% at 50% 0%, #000 10%, transparent 80%);
+    mask-image: radial-gradient(ellipse 90% 70% at 50% 0%, #000 10%, transparent 80%);
+  }
+  .glow {
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse 45% 45% at 30% 0%, rgba(203,166,247,.12), transparent 70%);
+  }
+  .wrap {
+    position: relative;
+    height: 100%;
+    padding: 76px 88px 64px;
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+  .prompt { font-family: 'JetBrains Mono', monospace; font-size: 26px; color: #7f849c; margin: 0; }
+  .prompt .s { color: #a6e3a1; margin-right: 10px; }
+  .prompt .cursor { color: #cba6f7; }
+  h1 { margin: 26px 0 18px; font-size: 92px; font-weight: 650; letter-spacing: -0.03em; line-height: 1; }
+  .line { font-size: 29px; color: #a6adc8; max-width: 880px; line-height: 1.45; margin: 0; }
+  .line strong { color: #cdd6f4; font-weight: 600; }
+  .bottom { display: flex; justify-content: space-between; align-items: flex-end; font-family: 'JetBrains Mono', monospace; }
+  .url { font-size: 22px; color: #cba6f7; }
+  .meta { font-size: 19px; color: #6c7086; }
+</style>
+</head>
+<body>
+  <div class="grid"></div>
+  <div class="glow"></div>
+  <div class="wrap">
+    <div>
+      <p class="prompt"><span class="s">$</span>whoami<span class="cursor">▍</span></p>
+      <h1>Jay Gupta</h1>
+      <p class="line">AI engineer — agents, evals, LLM infra.<br><strong>Receipts, not takes.</strong></p>
+    </div>
+    <div class="bottom">
+      <span class="url">jaygupta17.github.io</span>
+      <span class="meta">nagpur, india · ist</span>
+    </div>
+  </div>
+</body>
+</html>
