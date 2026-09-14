@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jay Gupta — AI Engineer</title>
+<meta name="description" content="AI engineer building agent systems and the infrastructure under them. Agents, evals, LLM infra — designed for production, not demos.">
+<meta name="theme-color" content="#1e1e2e">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Jay Gupta — AI Engineer">
+<meta property="og:description" content="Agents, evals, LLM infra — designed for production, not demos.">
+<meta property="og:url" content="https://jaygupta17.github.io/">
+<meta property="og:image" content="https://jaygupta17.github.io/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Jay Gupta — AI Engineer">
+<meta name="twitter:description" content="Agents, evals, LLM infra — designed for production, not demos.">
+<meta name="twitter:image" content="https://jaygupta17.github.io/assets/og.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="grid-bg" aria-hidden="true"></div>
+<main>
+
+  <header class="hero">
+    <p class="prompt mono"><span class="prompt-sym">$</span> whoami</p>
+    <h1>Jay Gupta</h1>
+    <p class="headline">I build agent systems and the infrastructure under them, designed for production rather than demos.</p>
+    <p class="status mono"><span class="dot" aria-hidden="true"></span>AI engineer @ encraft <span class="sep">·</span> building <a href="https://sketchpen.app">sketchpen</a> (early access)</p>
+    <nav class="links mono" aria-label="Contact links">
+      <a href="https://github.com/jaygupta17">github</a>
+      <a href="https://linkedin.com/in/jaygupta17">linkedin</a>
+      <a href="https://x.com/guptajay19">x</a>
+      <a href="mailto:jayajaygupta16@gmail.com" data-copy-email title="click to copy">email</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2 class="mono"><span class="slashes">//</span> about</h2>
+    <div class="prose">
+      <p>Final-year Computer Science (Data Science) undergrad who has spent the last two years shipping AI-heavy products in production: async backends, ETL pipelines, agents, retrieval systems, and the unglamorous parts underneath them.</p>
+      <p>I care about systems that hold up when real users show up. Correctness first, cost always on the table, tradeoffs made deliberately.</p>
+    </div>
+  </section>
+
+  <section id="now">
+    <h2 class="mono"><span class="slashes">//</span> now</h2>
+    <ul class="now-list mono">
+      <li><span class="k">encraft</span><span>video-analysis &amp; retrieval pipelines for enterprise compliance</span></li>
+      <li><span class="k">sketchpen</span><span>whiteboard-video engine, built from scratch <span class="muted">(early access)</span></span></li>
+      <li><span class="k">oss</span><span>agent tooling — openchamber, ai-python</span></li>
+    </ul>
+  </section>
+
+  <section id="experience">
+    <h2 class="mono"><span class="slashes">//</span> experience</h2>
+    <article class="job">
+      <header>
+        <h3>AI Engineer <span class="at">@</span> Encraft</h3>
+        <span class="period mono">2026 — now</span>
+      </header>
+      <ul>
+        <li>Building video-analysis and evaluation pipelines for enterprise compliance: resumable stage machines, structured outputs, retry-safe orchestration.</li>
+        <li>Hybrid RAG over regulatory documents, and rubric-based evaluation harnesses for model output.</li>
+      </ul>
+    </article>
+    <article class="job">
+      <header>
+        <h3>AI Engineer <span class="at">@</span> Prepairo <span class="muted">(Vertune Data Tech)</span></h3>
+        <span class="period mono">Dec 2024 — Jan 2026</span>
+      </header>
+      <ul>
+        <li>Owned a daily end-to-end ETL system (scrape → normalize → summarize → store) that contributed to a <strong>3× increase in app downloads</strong> and <strong>60% DAU growth</strong>.</li>
+        <li>Shipped a production <strong>GRE AI tutor</strong> on pydantic-ai: schema-validated outputs, tool-based reasoning, persistent user context.</li>
+        <li>Built the async backend for the GRE modules (FastAPI, async SQLAlchemy, PostgreSQL) with predictable latency and clean domain separation.</li>
+        <li>Engineered subscription infrastructure with Razorpay: verified webhooks, idempotent flows, real-time entitlements.</li>
+        <li>Cut AI infrastructure cost <strong>~50%</strong> via batch inference, prompt restructuring, and model selection by cost–quality.</li>
+      </ul>
+    </article>
+  </section>
+
+  <section id="work">
+    <h2 class="mono"><span class="slashes">//</span> work</h2>
+    <article class="card">
+      <header>
+        <h3><a href="https://sketchpen.app">Sketchpen</a> <span class="muted">· AI whiteboard-video engine</span></h3>
+      </header>
+      <p>Script in, animated explainer out. Voiceover with word-level sync and a hand-drawn rendering engine built from scratch. Multi-language, near-real-time. Twenty-one iterations in seven working days. Live in early access.</p>
+      <p class="tags mono">next.js · fastapi · pydantic-ai · custom python renderer</p>
+    </article>
+    <article class="card">
+      <header>
+        <h3>Apex <span class="muted">· desktop AI workspace</span></h3>
+      </header>
+      <p>A Cursor-like desktop assistant: local notes, document context, type-safe agents over MCP, Rust filesystem service. Built because I wanted an AI environment I would actually use. Private for now.</p>
+      <p class="tags mono">tauri v2 · react · rust · pydantic-ai · chromadb · mcp</p>
+    </article>
+  </section>
+
+  <section id="oss">
+    <h2 class="mono"><span class="slashes">//</span> open source</h2>
+    <ul class="oss-list">
+      <li><a href="https://github.com/openchamber/openchamber">openchamber</a><span class="muted"> · shipped <code>/btw</code>: side questions mid-session, without polluting the main context</span></li>
+      <li><a href="https://github.com/vercel-labs/ai-python">ai-python</a><span class="muted"> · merged contributions to the AI SDK for Python</span></li>
+    </ul>
+  </section>
+
+  <section id="stack">
+    <h2 class="mono"><span class="slashes">//</span> stack</h2>
+    <dl class="stack mono">
+      <div><dt>languages</dt><dd>python · typescript · rust (basics) · sql</dd></div>
+      <div><dt>ai</dt><dd>agents · rag · evals · tts · ocr · voice</dd></div>
+      <div><dt>backend</dt><dd>fastapi · postgres · async sqlalchemy · docker · aws · gcp</dd></div>
+      <div><dt>product</dt><dd>next.js · react · tauri · tailwind</dd></div>
+    </dl>
+  </section>
+
+  <section id="education">
+    <h2 class="mono"><span class="slashes">//</span> education</h2>
+    <p>B.Tech, Computer Science &amp; Engineering (Data Science), RCOEM Nagpur <span class="muted">· 2023–present · CGPA 8.08</span></p>
+  </section>
+
+  <footer>
+    <p class="mono">© <span id="year">2026</span> Jay Gupta</p>
+    <p class="mono muted">IST <span id="clock">--:--</span> <span class="sep">·</span> <a href="mailto:jayajaygupta16@gmail.com">jayajaygupta16@gmail.com</a></p>
+  </footer>
+
+</main>
+<script src="/main.js"></script>
+</body>
+</html>
