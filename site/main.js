@@ -1,4 +1,4 @@
-/* jaygupta17.github.io — minimal hand-rolled JS */
+/* jaygupta17.github.io · minimal JS */
 (function () {
   "use strict";
 
